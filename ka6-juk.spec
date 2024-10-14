@@ -115,6 +115,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/32x32/apps/juk.png
 %{_iconsdir}/hicolor/48x48/apps/juk.png
 %{_iconsdir}/hicolor/64x64/apps/juk.png
+%dir %{_datadir}/juk
+%dir %{_datadir}/juk/pics
 %{_datadir}/juk/pics/playing.png
 %{_datadir}/juk/pics/theme.svg
 %{_datadir}/kio/servicemenus/jukservicemenu.desktop
