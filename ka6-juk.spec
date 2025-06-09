@@ -20,8 +20,8 @@ BuildRequires:	cmake >= 3.20
 BuildRequires:	kf6-extra-cmake-modules >= %{kframever}
 BuildRequires:	kf6-kwallet-devel >= %{kframever}
 BuildRequires:	ninja
+BuildRequires:	phonon-qt6-devel
 BuildRequires:	qt6-build >= %{qtver}
-BuildRequires:	qt6-phonon-devel
 BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	shared-mime-info
 BuildRequires:	tar >= 1:1.22
