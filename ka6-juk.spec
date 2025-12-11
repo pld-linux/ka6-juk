@@ -1,21 +1,22 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.08.3
+%define		kdeappsver	25.12.0
 %define		kframever	5.240.0
 %define		qtver		5.15.2
 %define		kaname		juk
 ######		Unknown group!
 ######		Unknown group!
 ######		Unknown group!
+######		Unknown group!
 Summary:	Juk
 Name:		ka6-%{kaname}
-Version:	25.08.3
-Release:	2
+Version:	25.12.0
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Multimedia
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	f25b0ac54de29ab79217acf7bc75291a
+# Source0-md5:	8ffea0d34b4552e8f3a2e9557c02148c
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Concurrent-devel >= %{qtver}
 BuildRequires:	Qt6Core-devel >= %{qtver}
@@ -151,4 +152,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/juk/pics/theme.svg
 %{_datadir}/kio/servicemenus/jukservicemenu.desktop
 %{_datadir}/knotifications6/juk.notifyrc
-%{_datadir}/metainfo/org.kde.juk.appdata.xml
+%{_datadir}/metainfo/org.kde.juk.metainfo.xml
