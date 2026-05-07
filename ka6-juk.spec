@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.04.0
+%define		kdeappsver	26.04.1
 %define		kframever	5.240.0
 %define		qtver		5.15.2
 %define		kaname		juk
@@ -11,12 +11,12 @@
 ######		Unknown group!
 Summary:	Juk
 Name:		ka6-%{kaname}
-Version:	26.04.0
-Release:	2
+Version:	26.04.1
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Multimedia
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	7f501720e954f96cc2e5c52bfabd6b70
+# Source0-md5:	61bb3c3ccbeaac7bb78063b938cd5a57
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Concurrent-devel >= %{qtver}
 BuildRequires:	Qt6Core-devel >= %{qtver}
