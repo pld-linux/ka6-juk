@@ -5,10 +5,6 @@
 %define		kframever	5.240.0
 %define		qtver		5.15.2
 %define		kaname		juk
-######		Unknown group!
-######		Unknown group!
-######		Unknown group!
-######		Unknown group!
 Summary:	Juk
 Name:		ka6-%{kaname}
 Version:	26.04.1
